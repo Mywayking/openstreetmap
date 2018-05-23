@@ -5,9 +5,8 @@ openstreetmap is a pure Python library that provides an easy way to extracting `
 
 Code example
 ------------
-::
+python: ::
 
-    python
     # -*- coding: UTF-8 -*-
     from openstreemap import Crawler
 
@@ -20,10 +19,10 @@ Code example
     # csys(Coordinate System): wgs84 gcj02 bd09
     print(boundary.info)
 
-
 boundary.info: ::
 
     {'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
+
 
 Installation
 ------------
