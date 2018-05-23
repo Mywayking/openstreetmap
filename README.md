@@ -1,6 +1,21 @@
 # OpenStreetMap
-`openstreetmap` is a pure Python library that provides an easy way to extracting ([OpenStreetMap](www.openstreetmap.org)) coordinates by name or relation id.
+`openstreetmap` is a pure Python library that provides an easy way to extracting [OpenStreetMap](www.openstreetmap.org) coordinates by name or relation id.
 Life is short, be cool.
+
+
+
+**Code example: segmentation**
+
+```python
+# encoding=utf-8
+from openstreemap import Crawler
+
+c = Crawler()
+boundary = c.name_parse('合肥市蜀山区', 'county')
+print(boundary.info)
+boundary = c.id_parse("2458199", csys='wgs84', coo_order=True)
+print(boundary.info)
+```
 
 
 ### Installation
