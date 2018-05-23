@@ -20,7 +20,8 @@ Code example
     # csys(Coordinate System): wgs84 gcj02 bd09
     print(boundary.info)
 
-boundary.info：::
+
+boundary.info ::
 
     {'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
 
