@@ -8,7 +8,7 @@
 -------------------------------------------------
 """
 
-from setuptools import setup
+from setuptools import setup,find_packages
 from openstreemap import __version__
 
 VERSION = __version__
@@ -27,10 +27,9 @@ setup(
     ],
     url='https://git.rtbasia.com/galen/openstreetmap',
     keywords='openstreetmap',
-    packages=['openstreetmap'],
-    entry_points={
-        'console_scripts': [
-            'openstreetmap = openstreetmap:main',
-        ],
-    }
+    packages=find_packages(),
+    install_requires=[
+        'lxml',
+        'requests',
+    ],
 )
