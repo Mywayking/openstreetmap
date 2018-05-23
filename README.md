@@ -1,5 +1,5 @@
 # OpenStreetMap
-`openstreetmap` is a pure Python library that provides an easy way to extracting [OpenStreetMap](www.openstreetmap.org) coordinates by name or relation id.
+`openstreetmap` is a pure Python library that provides an easy way to extracting [OpenStreetMap](https://www.openstreetmap.org/) coordinates by name or relation id.
 
 
 **Code example**
@@ -26,13 +26,13 @@ print(boundary.info)
 ### Installation
 ---
 
-`openstreetmap ` is hosted on [PYPI](https://pypi.python.org/pypi/OpenStreetMap) and can be installed as such:
+`openstreetmap ` is hosted on [PYPI](https://pypi.org/project/openstreetmap/) and can be installed as such:
 
 ```
 $ pip install openstreetmap
 ```
 
-Alternatively, you can also get the latest source code from [GitHub](https://github.com/xlzd/xart) and install it manually:
+Alternatively, you can also get the latest source code from [GitLab](https://git.rtbasia.com/galen/openstreetmap) and install it manually:
 
 ```
 $ git clone git@git.rtbasia.com:galen/openstreetmap.git

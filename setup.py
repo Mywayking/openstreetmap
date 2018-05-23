@@ -8,7 +8,7 @@
 -------------------------------------------------
 """
 
-from setuptools import setup,find_packages
+from setuptools import setup, find_packages
 from openstreemap import __version__
 
 VERSION = __version__
@@ -22,8 +22,9 @@ setup(
     author='galen',
     author_email='galen.wang@rtbasia.com',
     classifiers=[
-        'Environment :: Console',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     url='https://git.rtbasia.com/galen/openstreetmap',
     keywords='openstreetmap',
