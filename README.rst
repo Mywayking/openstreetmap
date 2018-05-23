@@ -1,10 +1,13 @@
 OpenStreetMap
 =============
+
 openstreetmap is a pure Python library that provides an easy way to extracting `OpenStreetMap`_ coordinates by name or relation id.
-.._OpenStreetMap:https://www.openstreetmap.org/
+
+.. _OpenStreetMap: https://www.openstreetmap.org/
 
 Code example
 ------------
+
 python: ::
 
     # -*- coding: UTF-8 -*-
@@ -12,7 +15,7 @@ python: ::
 
     c = Crawler()
     boundary = c.name_parse('合肥市蜀山区', level='county',coo_order=True)
-    # level: country state city county town
+    # level: country state city county towns
     # coo_order  :False ->lng,lat ; True -> lat,lng  coo_order;
     print(boundary.info)
     boundary = c.id_parse("2458199", csys='wgs84', coo_order=True)
@@ -23,7 +26,6 @@ boundary.info: ::
 
     {'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
 
-
 Installation
 ------------
 
@@ -31,23 +33,21 @@ PyPI version: ::
 
     $ pip install openstreetmap
 
-Alternatively, you can also get the latest source code from   `GitLab`_ and install it manually:
-.. _GitLab:https://git.rtbasia.com/galen/openstreetmap
+Alternatively, you can also get the latest source code from `GitLab`_ and install it manually:
+
+.. _GitLab: https://git.rtbasia.com/galen/openstreetmap
+
 ::
 
     $ git clone git@git.rtbasia.com:galen/openstreetmap.git
     $ cd openstreetmap
     $ python setup.py install
 
-For update:
-
-::
+For update: ::
 
     $ pip install openstreetmap --upgrade
 
-### License
----
 
+License
+-------
 
-
-Galen @*20180521*
