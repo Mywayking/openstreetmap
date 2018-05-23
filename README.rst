@@ -21,7 +21,7 @@ Code example
     print(boundary.info)
 
 
-boundary.info ::
+boundary.info: ::
 
     {'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
 
