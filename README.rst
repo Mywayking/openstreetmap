@@ -23,23 +23,27 @@ Code example
 boundary.info：::
 
     {'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
+
 Installation
 ------------
 
 PyPI version: ::
 
     $ pip install openstreetmap
+
 Alternatively, you can also get the latest source code from `GitLab<https://git.rtbasia.com/galen/openstreetmap>`_ and install it manually:
 ::
 
     $ git clone git@git.rtbasia.com:galen/openstreetmap.git
     $ cd openstreetmap
     $ python setup.py install
+
 For update:
 
 ::
 
     $ pip install openstreetmap --upgrade
+
 ### License
 ---
 
