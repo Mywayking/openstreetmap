@@ -53,9 +53,11 @@ class Crawler:
         self.outputer.reshape_data(region, self.boundary, csys, coo_order)
         return self.boundary
 
-    def name_parse(self, name, level):
+    def name_parse(self, name, level, csys='wgs84', coo_order=False):
         """
         get boundary by name
+        :param csys:
+        :param coo_order:
         :param name: place name
         :param level: Administrative district level ,country state city county town
         :return:
@@ -68,4 +70,4 @@ class Crawler:
         data_id, _ = extractor.extractor_id()
         if data_id is None:
             return self.boundary
-        return self.id_parse(data_id)
+        return self.id_parse(data_id, csys, coo_order)

@@ -9,8 +9,9 @@
 from openstreemap import Crawler
 
 c = Crawler()
-boundary = c.name_parse('合肥市蜀山区', level='county')
+boundary = c.name_parse('合肥市蜀山区', level='county',coo_order=True)
 # level: country state city county town
+# coo_order  :False ->lng,lat ; True -> lat,lng  coo_order;
 print(boundary.info)
 boundary = c.id_parse("2458199", csys='wgs84', coo_order=True)
 # csys(Coordinate System): wgs84 gcj02 bd09
