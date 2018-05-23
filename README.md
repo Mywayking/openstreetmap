@@ -1,6 +1,7 @@
 # OpenStreetMap
+`OpenStreetMap` is a pure Python library that provides an easy way to extracting OpenStreetMap coordinates by name or relation id.
+Life is short, be cool.
 
-Extracting OpenStreetMap coordinates by name or relation id.
 
 OpenStreetMap：
 > www.openstreetmap.org

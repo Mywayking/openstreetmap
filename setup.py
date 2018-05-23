@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 -------------------------------------------------
    Author :       galen
@@ -6,19 +7,11 @@
    Description:
 -------------------------------------------------
 """
-# !/usr/bin/env python
-# coding: utf8
-
-import sys
 
 from setuptools import setup
 from openstreemap import __version__
 
 VERSION = __version__
-sys.path.pop(0)
-
-with open('README.rst') as fp:
-    README = fp.read()
 
 setup(
     name='openstreetmap',
@@ -32,12 +25,12 @@ setup(
         'Environment :: Console',
         'Programming Language :: Python',
     ],
-    url='https://github.com/xlzd/xart',
-    packages=['xart', 'xart.fonts'],
-    package_data={'xart.fonts': ['*.flf', '*.flc']},
+    url='https://git.rtbasia.com/galen/openstreetmap',
+    keywords='openstreetmap',
+    packages=['openstreetmap'],
     entry_points={
         'console_scripts': [
-            'xart = xart:main',
+            'openstreetmap = openstreetmap:main',
         ],
     }
 )
