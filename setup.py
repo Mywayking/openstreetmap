@@ -17,7 +17,7 @@ setup(
     name='openstreetmap',
     version=VERSION,
     description='OpenStreetMap coordinates',
-    long_description='Extracting OpenStreetMap coordinates by name or relation id.',
+    long_description=open('README.rst').read(),
     license='',
     author='galen',
     author_email='galen.wang@rtbasia.com',
