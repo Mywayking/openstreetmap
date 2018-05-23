@@ -66,4 +66,6 @@ class Crawler:
             raise PagesNotExist('Pages Not Found')
         extractor = NameExtractor(html, name, level)
         data_id, _ = extractor.extractor_id()
+        if data_id is None:
+            return self.boundary
         return self.id_parse(data_id)

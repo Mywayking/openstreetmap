@@ -5,7 +5,7 @@
 **Code example**
 
 ```python
-# encoding=utf-8
+# -*- coding: UTF-8 -*-
 from openstreemap import Crawler
 
 c = Crawler()
@@ -15,6 +15,10 @@ print(boundary.info)
 boundary = c.id_parse("2458199", csys='wgs84', coo_order=True)
 # csys(Coordinate System): wgs84 gcj02 bd09
 print(boundary.info)
+```
+
+```boundary.info
+{'name': '', 'relation_id': '', 'boundary': {'outer': '', 'inner': ''}}
 ```
 
 

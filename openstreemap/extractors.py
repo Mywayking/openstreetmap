@@ -84,3 +84,4 @@ class NameExtractor:
             name = search.xpath('p/a/@data-name')[0]
             data_id = search.xpath('p/a/@data-id')[0]
             return data_id, name
+        return None, None
