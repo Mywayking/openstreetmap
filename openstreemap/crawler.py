@@ -35,7 +35,7 @@ class Crawler:
         get Boundary,Conversion coordinate
         csys -> Coordinate System
         :param relation_id:
-        :param csys: wgs84:wgs84 ; gcj02: Mars; bd09:Baidu
+        :param csys: wgs84:wgs84; gcj02: Mars; bd09:Baidu
         :param coo_order: lng,lat  coo_order = False; lat,lng  coo_order = True;
         :return:
         """
