@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   Author :       galen
-   date：          2018/5/23
--------------------------------------------------
-   Description:
--------------------------------------------------
-"""
+
 
 from setuptools import setup, find_packages
 from openstreemap import __version__
