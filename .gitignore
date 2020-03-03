@@ -5,3 +5,6 @@ archive
 .idea
 __pyache__/
 dist/
+openstreetmap.egg-info
+dist
+build

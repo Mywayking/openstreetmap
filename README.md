@@ -32,10 +32,10 @@ print(boundary.info)
 $ pip install openstreetmap
 ```
 
-Alternatively, you can also get the latest source code from [GitLab](https://git.rtbasia.com/galen/openstreetmap) and install it manually:
+Alternatively, you can also get the latest source code from [GitHub](https://github.com/Mywayking/openstreetmap) and install it manually:
 
 ```
-$ git clone git@git.rtbasia.com:galen/openstreetmap.git
+$ git clone https://github.com/Mywayking/openstreetmap.git
 $ cd openstreetmap
 $ python setup.py install
 ```
