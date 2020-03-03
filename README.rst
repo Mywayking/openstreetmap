@@ -33,13 +33,13 @@ PyPI version: ::
 
     $ pip install openstreetmap
 
-Alternatively, you can also get the latest source code from `GitLab`_ and install it manually:
+Alternatively, you can also get the latest source code from `GitHub`_ and install it manually:
 
-.. _GitLab: https://git.rtbasia.com/galen/openstreetmap
+.. _GitLab: https://github.com/Mywayking/openstreetmap
 
 ::
 
-    $ git clone git@git.rtbasia.com:galen/openstreetmap.git
+    $ git clone https://github.com/Mywayking/openstreetmap
     $ cd openstreetmap
     $ python setup.py install
 
