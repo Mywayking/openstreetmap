@@ -13,13 +13,14 @@ setup(
     long_description=open('README.rst').read(),
     license='',
     author='galen',
-    author_email='galen.wang@rtbasia.com',
+    author_email='mywayking@icloud.com',
     classifiers=[
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
-    url='https://git.rtbasia.com/galen/openstreetmap',
+    url='https://github.com/Mywayking/openstreetmap.git',
     keywords='openstreetmap',
     packages=find_packages(),
     install_requires=[
