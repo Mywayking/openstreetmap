@@ -11,7 +11,7 @@ setup(
     version=VERSION,
     description='OpenStreetMap coordinates',
     long_description=open('README.rst').read(),
-    license='',
+    license="Apache-2.0",
     author='galen',
     author_email='mywayking@icloud.com',
     classifiers=[
