@@ -1,4 +1,7 @@
 # OpenStreetMap
+
+[![Downloads](https://pepy.tech/badge/openstreetmap)](https://pepy.tech/project/openstreetmap)
+
 `openstreetmap` is a pure Python library that provides an easy way to extracting [OpenStreetMap](https://www.openstreetmap.org/) coordinates by name or relation id.
 
 
