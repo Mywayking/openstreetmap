@@ -5,9 +5,9 @@ from setuptools import setup, find_packages
 from openstreemap import __version__
 
 VERSION = __version__
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
+# with open("README.md", "r") as fh:
+#     long_description = fh.read()
+long_description = 'Api For OpenStreetMap coordinates'
 setup(
     name='openstreetmap',
     version=VERSION,
